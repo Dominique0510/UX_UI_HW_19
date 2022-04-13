@@ -1,0 +1,79 @@
+body {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+nav {
+    border-color: #B59B8A;
+    background-color: #B59B8A;
+    width: auto;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 36px;
+    align-items: center;
+    border-color: #B59B8A;
+}
+.Hamburger {
+    height: 180px;
+    width: 180px;
+    align-items: flex-end;
+    justify-content: end;
+}
+.bluebox {
+  background-color: #63818C;
+}
+
+.tanbox {
+  background-color: #B88E7E;
+}
+
+.casestudy {
+  display: flex; 
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.Outboulder {
+    height: 643px;
+    width: 919px;
+}
+
+img {
+    height: 300px;
+    padding: 5%;
+    justify-content: end;
+}
+
+footer {
+    border-color: #B59B8A;
+    background-color: #B59B8A;
+    width: 1396px;
+    height: 100px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+    .icons {
+      margin-left: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+    }
+    #categoryGrid {
+      grid-template-rows: 300px 300px ;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "userResearch userDesign"
+      ;
+    }
