@@ -1,13 +1,42 @@
 body {
     background-color: blanchedalmond;
     padding: 20px;
+  
+    
 }
 nav {
     border-color: #B59B8A;
     background-color: #B59B8A;
     width: auto;
+    position: relative;
     
 }
+
+#dropDown {
+  width: 500px;
+  height: 50px;
+  background-color: #E4D7CC;
+}
+
+
+
+.Profile {
+  boarder-color: black;
+  height: 165px;
+  width: 165x;
+  align-items: flex-end;
+  justify-content: end;
+  position: absolute; 
+  top: -60px;
+
+  right: 0%;
+
+}
+.Profile:hover {
+  
+}
+  
+
 ul {
     display: flex;
     flex-direction: row;
@@ -21,6 +50,9 @@ ul {
     width: 180px;
     align-items: flex-end;
     justify-content: end;
+    position: absolute; 
+    top: 0%;
+    right: 0%;
 }
 .bluebox {
   background-color: #63818C;
@@ -31,11 +63,21 @@ ul {
 }
 
 .casestudy {
-  display: flex; 
-  flex-direction: column;
-  align-items: right;
-  justify-content: right;
+  
+   
+    width: 175px;
+    height: 65px;
+    background-color: #DEA8AA;
+    color: black;
+    font-size: 24px;
+    margin-top: 145px;
+    
 }
+
+.casestudy:hover {
+  background-color: #F17A7E;
+}
+
 
 .Outboulder {
     height: 643px;
