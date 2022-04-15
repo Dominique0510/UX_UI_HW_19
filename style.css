@@ -22,14 +22,12 @@ nav {
 
 
 .Profile {
-  boarder-color: black;
   height: 165px;
   width: 165x;
   align-items: flex-end;
   justify-content: end;
   position: absolute; 
   top: -60px;
-
   right: 0%;
 
 }
