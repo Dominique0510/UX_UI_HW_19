@@ -13,7 +13,9 @@ nav {
 }
 
 #dropDown {
-  width: 950px;
+  font-family: 'Neonderthaw', cursive;
+font-family: 'Raleway', sans-serif;
+  width: 400px;
   height: 50px;
   font-size: large;
   background-color: #E4D7CC;
@@ -44,6 +46,13 @@ ul {
     align-items: center;
     border-color: #B59B8A;
 }
+li {
+  list-style-type: none;
+}
+li:hover {
+  color: #ffbec0;
+}
+
 .Hamburger {
     height: 180px;
     width: 180px;
@@ -69,7 +78,7 @@ ul {
     background-color: #DEA8AA;
     color: black;
     font-size: 24px;
-    margin-top: 145px;
+    margin: 145px 0px 50px 50px; 
     
 }
 
@@ -90,11 +99,15 @@ img {
 }
 
 footer {
-    border-color: #B59B8A;
+  /* display: flex;   */
+  border-color: #B59B8A;
     background-color: #B59B8A;
-    width: 1396px;
+    width: auto;
     height: 100px;
-    align-items: center;
+    /* align-items: start; */
+    justify-content: space-evenly;
+    
+    
 }
 
 @media only screen and (max-width: 1000px) {
